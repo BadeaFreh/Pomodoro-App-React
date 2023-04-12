@@ -1,0 +1,31 @@
+
+.nav-container {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.button {
+    border-color: lightblue;
+    border-radius: 9999px;
+    padding: .5em 1em;
+    outline: 0;
+    background: 0;
+    margin: 10px;
+    cursor: pointer;
+    font-size: inherit;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.button:focus, .button:hover {
+    transform: scale(1.05);
+}
+
+.button.work-btn {
+    background: linear-gradient(135deg, #cc2b5e, #753a88);
+}
+
+.button.break-btn {
+    background: linear-gradient(135deg, #42275a, #734b6d);
+}
